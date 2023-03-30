@@ -1,0 +1,108 @@
+/* Los colores de fondo fue un lío, no se porque no me tomaban y tuve que ponerselos a cada elemento */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header h1 {
+    background-color: #000000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 7px;
+}
+
+header img {
+    width: 100%;
+}
+
+.desc-section {
+    padding: 100px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.desc-section .wrapper img,
+div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 30px;
+}
+
+.desc-section .wrapper img {
+    width: 480px;
+}
+
+.desc-section .wrapper div {
+    width: 475px;
+    text-align: left;
+}
+
+.desc-section .wrapper div p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.icons-section {
+    background-color: #1e1a13;
+    text-align: center;
+}
+
+.icons-section h2 {
+    font-size: 40px;
+    font-weight: 300;
+    background: #1e1a13;
+    padding: 70px 0px;
+}
+
+.icons-section article {
+    display: inline-block;
+    margin: 40px 100px 150px 100px;
+    background-color: #1e1a13;
+}
+
+.icons-section article h4 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 40px;
+    background-color: #1e1a13;
+}
+
+i {
+    font-size: 70px;
+    background-color: #1e1a13;
+}
+
+.galeria {
+    display: inline-block;
+}
+
+.galeria img {
+    width: 316px;
+    height: 202px;
+    vertical-align: middle;
+    margin: 100px 50px;
+}
+
+footer {
+    background-color: #1e1a13;
+    padding: 30px;
+}
+
+footer p, a {
+    background-color: #1e1a13;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
